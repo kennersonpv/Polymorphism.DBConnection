@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism.DBConnection", "Polymorphism.DBConnection\Polymorphism.DBConnection.csproj", "{BCF8D9D1-DC07-4BA7-8B50-B6354F1AF5CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCF8D9D1-DC07-4BA7-8B50-B6354F1AF5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF8D9D1-DC07-4BA7-8B50-B6354F1AF5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF8D9D1-DC07-4BA7-8B50-B6354F1AF5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF8D9D1-DC07-4BA7-8B50-B6354F1AF5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
