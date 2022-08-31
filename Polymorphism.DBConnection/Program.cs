@@ -1,3 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Polymorphism.DBConnection
+{ 
+    static partial class Program
+    {
+        static void Main(string[] args)
+        {
+            var sqlConnection = new SqlConnection("SqlConnection");
+            sqlConnection.OpenConnection();
+            sqlConnection.CloseConnection();
 
-Console.WriteLine("Hello, World!");
+            var oracleConnection = new OracleConnection("OracleConnection");
+            oracleConnection.OpenConnection();
+            oracleConnection.CloseConnection();
+        }
+    }
+}
+
