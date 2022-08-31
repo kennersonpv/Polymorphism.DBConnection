@@ -5,12 +5,12 @@
         static void Main(string[] args)
         {
             var sqlConnection = new SqlConnection("SqlConnection");
-            sqlConnection.OpenConnection();
-            sqlConnection.CloseConnection();
+            var sqlCommand = new DbCommand(sqlConnection);
+            sqlCommand.Execute("select * from SQLtable");
 
             var oracleConnection = new OracleConnection("OracleConnection");
-            oracleConnection.OpenConnection();
-            oracleConnection.CloseConnection();
+            var oracleCommand = new DbCommand(oracleConnection);
+            oracleCommand.Execute("select * from oracleTable");
         }
     }
 }
